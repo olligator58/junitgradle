@@ -7,7 +7,6 @@ public class StringUtils {
             return false;
         }
         str = str.toLowerCase().replaceAll("\\s|'|,", "");
-        System.out.println(str);
         int left = 0;
         int right = str.length() - 1;
         while (left < right) {
