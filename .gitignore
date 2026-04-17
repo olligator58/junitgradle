@@ -2,6 +2,7 @@
 build/
 gradle*
 out/
+logs/
 
 
 ### IntelliJ IDEA ###
