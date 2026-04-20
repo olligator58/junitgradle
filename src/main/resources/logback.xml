@@ -37,7 +37,7 @@
         <appender-ref ref="file"/>
     </logger>
 
-    <logger name="org.example.LoggerLevelClass" level="error">
+    <logger name="org.example.LoggerLevelClass" level="error" additivity = "false">
         <appender-ref ref="rollingFile"/>
     </logger>
 </configuration>
